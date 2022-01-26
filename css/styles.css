@@ -68,8 +68,9 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 .navbar{
-  position: sticky;
-  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
   padding-left: 15%;
   padding-right: 15%;
 }
@@ -138,3 +139,4 @@ footer{
   }
 
 }
+

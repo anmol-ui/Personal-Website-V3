@@ -1,15 +1,57 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>About Me</title>
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.ico">
-    <!-- Bootstrap Css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- Css -->
-  </head>
-  <body>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>About Me</title>
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+  <!-- Font Awesome script for icons -->
+  <script src="https://kit.fontawesome.com/dfc970b65d.js" crossorigin="anonymous"></script>
+  <!-- Google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap Css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Css -->
+  <link rel="stylesheet" href="css/about.css">
+</head>
+
+<body>
+  <hr>
+
+  <section id="contact">
+    <h2>CONTACT ME</h2>
+
+    <form class="row g-3" action="index.html" method="post">
+      <div class="col-lg-4">
+        <label for="">Name : </label>
+        <input type="text" name="name" value="">
+      </div>
+      <div class="col-lg-4">
+        <label for="">Age : </label>
+        <input type="number" name="age" value="">
+      </div>
+      <div class="col-lg-4">
+        <label for="">Email : </label>
+        <input type="email" name="email" value="">
+      </div>
+
+      <div class="message col-lg-12">
+        <label for="">Any message for Anmol?</label> <br> <br>
+        <textarea name="message" rows="8" cols="80"></textarea>
+      </div>
+
+      <div class="form-buttons col-lg-12">
+        <input class="submit btn btn-primary" type="submit" name="" value="SUBMIT">
+        <input class="btn btn-primary" type="reset" name="" value="RESET">
+      </div>
+
+    </form>
+
+  </section>
+  <hr>
+</body>
+
 </html>
